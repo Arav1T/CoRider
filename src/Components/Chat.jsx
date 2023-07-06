@@ -101,7 +101,7 @@ export default function Chat() {
                 </div>
             </header>
             
-            <div className='border overflow-y-scroll h-3/4 sm:h-2/3' style={{height:height}}>
+            <div className='border overflow-y-scroll h-3/4 sm:h-2/3 ' style={{height:height}}>
                 {chatdata.dataChat.map((e,i )=> {
                     return (
                         <>
